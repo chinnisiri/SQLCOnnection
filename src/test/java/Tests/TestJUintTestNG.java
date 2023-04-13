@@ -104,7 +104,7 @@ public class TestJUintTestNG {
 		WebElement ClickMe = driver.findElement(By.xpath("//*[text()='Click Me']"));
 		ClickMe.click();
 		System.out.println( driver.findElement(By.xpath("//*[@id='dynamicClickMessage']")).getText());
-		
+		System.out.println("Hello");
 			
 	}
 	
